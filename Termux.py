@@ -19,7 +19,7 @@ output = '/data/data/com.termux/files/usr/etc/'
 
 print('')
 os.system('clear')
-name = raw_input('\n\n\n\n\t\033[1;32m Input Your  Name :')
+name = input('\n\n\n\n\t\033[1;32m Input Your  Name : ')
 
 
 wlc = '''
@@ -43,10 +43,11 @@ bashrc1 = '''
 clear
 echo
 
- echo "  < ━━━━━━━━━━━━ [★] T E R M U X [★] ━━━━━━━━━━━━━━━ >   " |lolcat
+ echo "
+< ━━━━━━━━━━━━ [★] T E R M U X [★] ━━━━━━━━━━━━━━━ >   " |lolcat
 echo
-    echo "  WE ARE LEGENDS" |lolcat
-     echo "   WE ARE HACKERS....⚔
+    echo "      WE ARE LEGENDS" |lolcat
+     echo "       WE ARE HACKERS....⚔
 
 ⠀⠀⠀⠀⠀⣠⣴⣶⣿⣿⠿⣷⣶⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣶⣷⠿⣿⣿⣶⣦⣀⠀⠀⠀⠀⠀
 ⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣶⣦⣬⡉⠒⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠚⢉⣥⣴⣾⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀
