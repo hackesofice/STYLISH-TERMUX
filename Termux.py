@@ -104,7 +104,9 @@ h2.write('\[\e[34m\]└─>\[\e[35m\]'+name+'\[\e[34m\][~]:#\[\e[1;32m\] "\n')
 h2.write('echo -e "\e[6 q"')
 h2.close()
 print('NOW YOR TERMUX IS STYLISH PLEASE RE LAUNCH TO SEE CHANGES')
+os.system('cd -')
 os.system('rm -rf STYLISH-TERMUX')
+
 
 
 
