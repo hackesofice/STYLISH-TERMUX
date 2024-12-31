@@ -6,7 +6,7 @@ pkg install python
 rm -rf STYLISH-TERMUX
 git clone --depth=1 https://github.com/hackesofice/STYLISH-TERMUX.git
 cd STYLISH-TERMUX
-python2 Termux.py
+python Termux.py
 
 ```
 
