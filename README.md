@@ -1,3 +1,4 @@
+```
 apt update && apt upgrade -y
 pkg install git
 pkg install python
@@ -5,6 +6,8 @@ rm -rf STYLISH-TERMUX
 git clone --depth=1 https://github.com/hackesofice/STYLISH-TERMUX.git
 cd STYLISH-TERMUX
 python2 MY-TERMUX-THEAM.py
+
+```
 
 **SCREENSHOT
 
