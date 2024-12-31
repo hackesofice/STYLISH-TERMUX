@@ -105,7 +105,9 @@ h2.write('echo -e "\e[6 q"')
 h2.close()
 print('NOW YOR TERMUX IS STYLISH PLEASE RE LAUNCH TO SEE CHANGES')
 os.system('cd -')
-os.system('rm -rf STYLISH-TERMUX')
+path = os.getcwd()
+os.system('cd ~')
+os.system(f'rm -rf {path}')
 
 
 
